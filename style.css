@@ -8,6 +8,9 @@
 body{
     background: #1f242d;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     color:#fff;
     text-decoration: none;
@@ -187,6 +190,9 @@ a{
     text-align: left;
     line-height: 1.2;
 }
+.about-content h2 span{
+    color: #7cf03d;
+}
 .about-content h3{
     font-size: 2.6rem;
 }
@@ -194,4 +200,82 @@ a{
     font-size: 16px;
     margin: 2rem 0 3rem;
     color: #fff;
+}
+
+.head{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.head span{
+    color: #7cf03d;
+}
+.intrest-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+
+}
+.intrest-container .intrest-box{
+    padding: 3rem 2.5rem;
+    background: #1f242d;
+    border: 2rem solid #7cf03d;
+    border-radius: 1rem;
+    
+}
+.intrest-box .icon i{
+    font-size: 4.5rem;
+
+}
+.intrest-box .icon a{
+    display: inline-flex;
+    background: #1f242d;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+
+/* --project section--*/
+.projets{
+    padding: 10rem 9% 2rem;
+    position: absolute;
+    width: 100%;
+
+}
+.heads{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.heads span{
+    color: #7cf03d;
+}
+.projects .about-content{
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.projects .about-content span{
+    color: #7cf03d;
+}
+
+.school{
+    padding: 10rem 9% 2rem;
+    position: absolute;
+    width: 100%;
+}
+.school .heading{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+.school .heading .h2 span{
+    color: #7cf03d;
+}
+.school .about-content span{
+    color: #7cf03d;
+}
+
+.contact .heading span{
+    color: #7cf03d;
 }
